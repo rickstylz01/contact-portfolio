@@ -130,6 +130,10 @@ p {
 	margin-bottom: 0;
 }
 
+.lrg-txt {
+	font-size: 25px;
+}
+
 /*--Links--*/
 .dark-background a:link {
 	color: white;
