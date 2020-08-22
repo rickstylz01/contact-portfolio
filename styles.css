@@ -168,6 +168,10 @@ footer p {
 	flex: 2;
 }
 
+.languages {
+	align-self: center;
+}
+
 /*--Div Group & Items (Desktop)--*/
 @media all and (min-width: 800px) {
 	section {
