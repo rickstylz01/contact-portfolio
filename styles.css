@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Oswald:wght@600&display=swap');
 
 body {
+	width: fit-content;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 }
