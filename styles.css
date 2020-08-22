@@ -134,6 +134,10 @@ p {
 	font-size: 25px;
 }
 
+.mid-txt {
+	font-size: 18px;
+}
+
 /*--Links--*/
 .dark-background a:link {
 	color: white;
