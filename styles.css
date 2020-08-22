@@ -40,14 +40,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: #b3ddf2;
+	color: #ff0000;
 	text-decoration: none;
 	padding: 0 20px 0 0;
 	font-family: 'Oswald', sans-serif; 
 }
 
 header nav ul li a:hover {
-	color: #ff0000;
+	color: #b3ddf2;
 }
 /*--(Desktop) Navigation--*/
 
