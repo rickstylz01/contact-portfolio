@@ -186,6 +186,7 @@ footer p {
 /*--Contact Form Design--*/
 form {
 	padding-right: 8px;
+	width: 600px;
 }
 
 form label {
@@ -220,26 +221,4 @@ form button:hover {
 form button:visited {
 	background-color: color: #ff0000;;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
