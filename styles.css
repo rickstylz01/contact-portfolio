@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	background-color: white;
+	background-color: rgba(179,221,242,0.5);
 	margin-bottom: 40px;
 	border-bottom: 1px solid #b3ddf2;
 }
@@ -40,14 +40,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: #b3ddf2;
+	color: #ff0000;
 	text-decoration: none;
 	padding: 0 20px 0 0;
 	font-family: 'Oswald', sans-serif; 
 }
 
 header nav ul li a:hover {
-	color: #ff0000;
+	color: black;
 }
 /*--(Desktop) Navigation--*/
 
@@ -102,6 +102,10 @@ main img {
 img.image-enhanced {
 	border-radius: 8px;
 	max-height: 500px;
+}
+
+img.rounded {
+	border-radius: 8px;
 }
 
 /*--Typography--*/
