@@ -102,12 +102,12 @@ main img {
 img.image-enhanced {
 	border-radius: 8px;
 	max-height: 500px;
+	min-height: 338px;
 }
 
 img.rounded {
 	border-radius: 8px;
 }
-
 /*--Typography--*/
 h1 {
 	font-size: 28px;
