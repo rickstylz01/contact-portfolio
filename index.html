@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
@@ -15,19 +16,45 @@
   <!--Header & Navigation-->
   <header>
     <div class="logo">Rick Maya</div>
-    <nav>
-      <ul id="menu">
-        <li><a href="#intro"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Introduction |</a></li>
-        <li><a href="#about-me"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">About Me |</a></li>
-        <li><a href="#projects"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Projects |</a></li>
-        <li><a href="#contact"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Contact |</a></li>
-      </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#intro">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
+
+<!--    <nav>-->
+<!--      <ul id="menu">-->
+<!--        <li><a href="#intro"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Introduction |</a></li>-->
+<!--        <li><a href="#about-me"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">About Me |</a></li>-->
+<!--        <li><a href="#projects"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Projects |</a></li>-->
+<!--        <li><a href="#contact"><img class="center" src="images/new-chicago-star.jpg" alt="Chicago star">Contact |</a></li>-->
+<!--      </ul>-->
+<!--    </nav>-->
   </header>
-    
+
   <main>
 
-    
+
     <!--Introduction-->
     <section id="intro">
       <div class="group">
@@ -38,13 +65,13 @@
           <h1>Hi! I'm Rick</h1>
           <p>I'm a jr. software developer in the making. Thanks to web development sources like<i>Thinkful</i>, Codecademy, and other open source projects I can have access to a plethora of knowledge. I am currently living in <strong>Chicago, IL.</strong> I am in the early stages of web development, and I love the path that I am on so far.  Overcoming challenges and learning every day by crafting quality sites is the best feeling.</p>
           <p>I am excited about what the future holds and I can't wait to get there!</p>
-        </div>  
+        </div>
       </div>
     </section>
 
     <!--About Me-->
     <section id="about-me" class="dark-background">
-      <h2>About Me</h2> 
+      <h2>About Me</h2>
 
         <div class="group">
           <div class="item item-double mid-txt center">
@@ -63,8 +90,8 @@
             <img src="images/google-scholarship.jpg" alt="Google scholarship certificate" class="image-enhanced">
           </div>
         </div>
-    </section> 
-    
+    </section>
+
     <!--Portfolio-->
     <section id="projects">
       <h2>Projects</h2>
@@ -142,8 +169,8 @@
           <p>I enjoy working in groups of like-minded and goal-oriented people.  There is satisfaction in accomplishing a goal but even more gratifying is sharing the rewards and achievements with a team who has grown and gone through the challenges with you to create something awesome and unique.</p>
 
           <p>When I am not on my laptop, working on development projects, I am teaching kids how to breakdance in a non-for-profit afterschool program based on the south side of Chicago. </p>
-        </div> 
-      </div> 
+        </div>
+      </div>
     </section>
     <!--Contact-->
     <section id="contact">
@@ -173,11 +200,13 @@
       </div>
     </section>
 
-  </main> 
+  </main>
 
   <footer>
     <p>© Rick Maya</p>
   </footer>
 
+<!--  Bootstrap Javascript plugin and dependancy -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

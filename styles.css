@@ -13,6 +13,8 @@ header {
 	border-bottom: 1px solid #b3ddf2;
 }
 
+.
+
 .logo {
 	font-family: 'Lobster', cursive;
 	font-size: 72px;
@@ -43,7 +45,7 @@ header nav ul li a {
 	color: #ff0000;
 	text-decoration: none;
 	padding: 0 20px 0 0;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Oswald', sans-serif;
 }
 
 header nav ul li a:hover {
@@ -61,8 +63,8 @@ header nav ul li a:hover {
 		margin: 14px 0 14px 20px;
 		padding-top: 0;
 		font-size: 42px;
-		
-	}	
+
+	}
 
 	header nav {
 		margin-top: 14px;
