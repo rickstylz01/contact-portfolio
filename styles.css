@@ -13,6 +13,7 @@ header {
 	border-bottom: 1px solid #b3ddf2;
 }
 
+/*--Bootstrap Navbar Specs--*/
 .navbar navbar-expand-lg {
 	background-color: #b3ddf2;
 
@@ -21,6 +22,14 @@ header {
 .navbar-light .navbar-nav .nav-link {
 	color: red !important;
 	font-family: 'Lobster', cursive !important;
+}
+
+.navbar-nav {
+	flex-direction: row !important;
+}
+
+.navbar-nav li {
+	margin-right: auto !important;
 }
 
 .logo {
