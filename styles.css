@@ -15,11 +15,12 @@ header {
 
 .navbar navbar-expand-lg {
 	background-color: #b3ddf2;
-	font-family: 'Lobster', cursive !important;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
 	color: red !important;
+	font-family: 'Lobster', cursive !important;
 }
 
 .logo {
