@@ -152,6 +152,7 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5em;
 	margin-bottom: 0;
+	margin-left: inherit;
 }
 
 .mid-txt {
