@@ -13,7 +13,14 @@ header {
 	border-bottom: 1px solid #b3ddf2;
 }
 
-.
+.navbar navbar-expand-lg {
+	background-color: #b3ddf2;
+	font-family: 'Lobster', cursive !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: red !important;
+}
 
 .logo {
 	font-family: 'Lobster', cursive;
